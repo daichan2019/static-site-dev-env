@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+  <head>
+    {%- include 'head/_meta.njk' %} {%- include 'head/_css.njk' %} {%- include
+    'head/_script.njk' %}
+  </head>
+  <body>
+    <div class="l-page">
+      <header class="l-header">{%- include 'layout/_header.njk' %}</header>
+      <main role="main" class="l-main">{% block main -%}{%- endblock %}</main>
+      <footer class="l-footer">{%- include 'layout/_footer.njk' %}</footer>
+    </div>
+  </body>
+</html>

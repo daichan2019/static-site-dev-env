@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "prettier"]
+}
