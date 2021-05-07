@@ -6,6 +6,13 @@
   </a>
 </p>
 
+## Prerequisites
+### Node.js Version
+14.16.1
+
+### Yarn
+already installed
+
 ## Install
 
 ```sh
