@@ -85,14 +85,15 @@ module.exports = {
       filename: "css/style.css",
       ignoreOrder: true,
     }),
-    // new stylelint({
-    //   fix: true,
-    // }),
     new CopyPlugin({
       patterns: [
         {
           from: "src/img",
           to: "img",
+        },
+        {
+          from: "src/api",
+          to: "api",
         },
       ],
     }),
