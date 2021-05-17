@@ -7,10 +7,13 @@
 </p>
 
 ## Prerequisites
+
 ### Node.js Version
+
 14.16.1
 
 ### Yarn
+
 already installed
 
 ## Install
@@ -29,10 +32,10 @@ yarn dev
 
 👤 **D.S**
 
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

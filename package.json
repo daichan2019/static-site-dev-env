@@ -11,7 +11,7 @@
     "build": "run-p clean build:*",
     "build:template": "npx @11ty/eleventy",
     "build:assets": "webpack --mode production",
-    "lint": "run-p -l -c --aggregate-output lint:*",
+    "lint": "run-p -l -c lint:*",
     "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint src/js/**/*.js",
     "fix": "run-s fix:*",
