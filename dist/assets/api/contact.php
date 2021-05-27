@@ -86,6 +86,6 @@
     mb_send_mail($to, $title, $message, $header, $opt);
 
     //マスター管理者にもお問い合わせがあったことを知らせる
-    mb_send_mail('info@mirume-s.jp', 'お客様よりお問い合わせがありました', $message2, $header, $opt);
+    mb_send_mail('example@example.jp', 'お客様よりお問い合わせがありました', $message2, $header, $opt);
 
 ?>
